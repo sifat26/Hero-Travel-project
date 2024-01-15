@@ -1,0 +1,13 @@
+.tour{
+    max-width: 1170px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+}
+@media screen and (max-width:600px){
+  .tour{
+    flex-direction: column;
+  }
+}

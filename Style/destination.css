@@ -1,0 +1,22 @@
+.destination{
+  max-width: 1170px;
+  margin: 0px auto;
+}
+.destination-img > div{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.text-middle{
+  position: relative;
+
+}
+.text-middle h3{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}

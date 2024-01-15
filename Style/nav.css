@@ -1,10 +1,6 @@
-body{
-  margin: 0px;
-  padding: 0px;
-}
 header{
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 nav{
   /* border: 2px #FF5400 solid; */
@@ -13,23 +9,24 @@ nav{
   align-items: center;
 }
 .travel-title{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
   color: #131318;
-font-family: Mulish;
 font-size: 2.25rem;
 font-weight: 800;
 }
 .travel-title span{
   color: #FF5400;
-font-family: Mulish;
 }
 nav  ul{
   display: flex;
   align-items: center;
+  gap: 44px;
 
 }
 nav li{
   list-style: none;
-  margin-left: 44px;
 }
 nav li a{
   text-decoration: none;
@@ -39,6 +36,24 @@ font-size: 1.125rem;
 font-weight: 400;
 }
 .home{
-
 color: #FF5400;
+}
+@media screen and (min-width:601px) {
+  .menu-bar{
+    display: none;
+  }
+
+}
+@media screen and (max-width:600px) {
+nav{
+  margin: 0 20px;
+
+}
+.travel-menu{
+    display: none;
+  }
+  .travel-title{
+font-size: 1.344rem;
+font-weight: 800;
+}
 }
