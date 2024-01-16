@@ -54,11 +54,11 @@
   width: 174px;
   height: 52px;
 }
- .first-button {
+.first-button {
   border: none;
   border-radius: 8px;
   background: #ff5400;
-  width: 174px;
+  padding: 13px 35px;
   height: 52px;
   color: #fff;
   text-align: center;
