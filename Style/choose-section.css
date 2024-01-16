@@ -64,15 +64,82 @@ margin-bottom: 48px;
 .newsletter-heading{
   border-radius: 16px;
   border: 1px solid #FF5400;
+  padding: 40px;
 }
 
 .newsletter{
+  margin-top: 100px;
   justify-content: center;
   display: flex;
   gap: 24px;
-  align-items: center;
-  text-align: center;
+  align-items: stretch;
+  position: relative;
 
+}
+.newsletter-heading h3{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 16px;
+
+}
+.newsletter-heading p{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.newsletter hr{
+  margin: 24px 0;
+  background: rgba(19, 19, 24, 0.10);
+
+}
+.newsletter-heading input{
+  border: none;
+  width: 100%;
+  height: 52px;
+border-radius: 8px;
+font-size: 16px;
+font-weight: 400;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+padding-left: 20px;
+margin-bottom: 16px;
+}
+.newsletter-heading button{
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+height: 52px;
+background: #FF5400;
+color: #FFF;
+font-size: 20px;
+font-weight: 800;
+}
+.discount{
+  border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 53px;
+right: 10px;
+}
+.discount h3{
+  color: #FFF;
+
+font-size: 24px;
+font-weight: 400;
+}
+.discount h2{
+color: #FFF;
+font-size: 32px;
+font-weight: 800;
 }
 
 
@@ -82,7 +149,14 @@ margin-bottom: 48px;
 
 @media screen and (max-width:600px){
   .choose-section{
-    padding: 0 20px;
+    margin: 0 20px;
+  }
+  .newsletter{
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .newsletter img{
+    width: 560px;
   }
 
 }
